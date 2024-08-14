@@ -1,0 +1,38 @@
+{
+  "textStartingBalance": "//div[normalize-space()='USD Balance: $1000']",
+  "coinOptions": "//div[@class='ticket bordered']",
+  "coins": {
+    "A": {
+      "buyButton": "(//button[@class='action-button'][normalize-space()='Buy'])[1]",
+      "sellButton": "(//button[@class='action-button'][normalize-space()='Sell'])[1]",
+      "textTicketPrice": "(//div[@class='ticket-price'])[1]",
+      "ownedCoins": "//div[@class='actions bordered']//div[3]//div[2]",
+      "marketValue": "//div[@class='actions bordered']//div[3]//div[3]",
+      "inputQuantity": "(//input[@type='number'])[1]"
+    },
+    "B": {
+      "buyButton": "(//button[@class='action-button'][normalize-space()='Buy'])[2]",
+      "sellButton": "(//button[@class='action-button'][normalize-space()='Sell'])[2]",
+      "textTicketPrice": "(//div[@class='ticket-price'])[2]",
+      "ownedCoins": "//div[@class='actions bordered']//div[4]//div[2]",
+      "marketValue": "//div[@class='actions bordered']//div[4]//div[3]",
+      "inputQuantity": "(//input[@type='number'])[2]"
+    },
+    "C": {
+      "buyButton": "(//button[@class='action-button'][normalize-space()='Buy'])[3]",
+      "sellButton": "(//button[@class='action-button'][normalize-space()='Sell'])[3]",
+      "textTicketPrice": "(//div[@class='ticket-price'])[3]",
+      "ownedCoins": "//div[@class='actions bordered']//div[5]//div[2]",
+      "marketValue": "//div[@class='actions bordered']//div[5]//div[3]",
+      "inputQuantity": "(//input[@type='number'])[3]"
+    },
+    "D": {
+      "buyButton": "(//button[@class='action-button'][normalize-space()='Buy'])[4]",
+      "sellButton": "(//button[@class='action-button'][normalize-space()='Sell'])[4]",
+      "textTicketPrice": "(//div[@class='ticket-price'])[4]",
+      "ownedCoins": "//div[@class='actions bordered']//div[6]//div[2]",
+      "marketValue": "//div[@class='actions bordered']//div[6]//div[3]",
+      "inputQuantity": "(//input[@type='number'])[4]"
+    }
+  }
+}
